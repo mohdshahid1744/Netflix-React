@@ -1,0 +1,75 @@
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #111;
+}
+.logo{
+    position: fixed;
+    left: 20px;
+    width: 80px;
+}
+.avatar{
+    position: fixed;
+    right: 20px;
+    width: 30px;
+}
+.home{
+    position: fixed;
+    left: 200px;
+    color: white;
+    cursor: pointer;
+}
+.home:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.tvshow{
+    position: fixed;
+    left: 300px;
+    color: white;
+    cursor: pointer;
+}
+.tvshow:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.movies{
+    position: fixed;
+    left: 400px;
+    color: white;
+    cursor: pointer;
+}
+.movies:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.new{
+    position: fixed;
+    left: 500px;
+    color: white;
+    cursor: pointer;
+}
+.new:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.watch{
+    position: fixed;
+    left: 650px;
+    color: white;
+    cursor: pointer;
+}
+.watch:hover{
+    background-color: rgba(51, 51, 51, 0.5);
+}
+.search-field{
+    position: fixed;
+    right: 100px;
+    width: 15%;
+    height: 25px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+}
